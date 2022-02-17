@@ -16,6 +16,26 @@
 .button{
     margin-left: 100px;
 }
+  
+
+
+
+
+
+
+
+/* error messages hundle */
+
+.expeneses{
+    background-color: red;
+    background-color: red;
+    padding-left: 47px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: none;
+}
+
+
 
 p{
      background-color: red;
@@ -23,4 +43,13 @@ p{
     padding: 0px 0px 0px 90px;
     border-radius: 15px;
 }
+.balance{
+    background-color: red;
+    background-color: red;
+    padding-left: 47px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: none;
+}
+
 
