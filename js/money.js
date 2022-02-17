@@ -94,24 +94,19 @@ const  savingamuontTotal = incomeTotal* savinInpuitgamuont/100
  
 const balanCeInput = document.getElementById('balance-total');
 const balanCe = parseFloat(balanCeInput.innerText);
+const erorbalance = document.getElementById('error-balance');
 if(balanCe >= totaltkSaveInput.innerText ){
   const remaingBalanceInput =document.getElementById('remaing');
   const remaingBalance =parseFloat(remaingBalanceInput.innerText);
-  remaingBalanceInput.innerText = balanCeInput.innerText -totaltkSaveInput.innerText  
-
+  remaingBalanceInput.innerText = balanCeInput.innerText -totaltkSaveInput.innerText  ;
+  erorbalance.style.display = 'none'
 }
 
 else{
-  const erorbalance = document.getElementById('error-balance');
+  
   erorbalance.style.display = 'block'
 }
 
 
-
-
-
-
-
-
-})
+});
 

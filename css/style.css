@@ -1,16 +1,17 @@
 /* font */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins&display=swap'); */
 
 
-/* body {
-     font-family: 'Mochiy Pop P One', sans-serif;
+ body {
+  
     font-family: 'Poppins', sans-serif; 
-} */
+} ;
+
 
 .inputbtn{
    
-    background-color: #E6E6E6;
+    background-color:#6e6e6e;
 }
 
 .button{
@@ -42,6 +43,7 @@ p{
     display:none;
     padding: 0px 0px 0px 90px;
     border-radius: 15px;
+    margin-top: 10px;
 }
 .balance{
     background-color: red;
